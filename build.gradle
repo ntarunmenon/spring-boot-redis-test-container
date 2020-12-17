@@ -15,6 +15,8 @@ repositories {
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-data-redis'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	testCompile "org.testcontainers:junit-jupiter:1.15.0"
+	testCompile "org.testcontainers:testcontainers:1.15.0"
 }
 
 test {
